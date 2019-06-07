@@ -1,0 +1,203 @@
+html{
+    font-family: 'Sintony', sans-serif;
+    background: rgb(247, 247, 247);
+}
+button, .circle{
+    border-radius: 50px !important;
+}
+
+nav{
+    -webkit-transition: ease all 0.3s;
+}
+
+hr{
+    border: 2px solid #4fc3f7; 
+    border-radius: 300px/10px; 
+    width: 30%;
+}
+
+h3{
+    color: #424242;
+    font-weight: bold;
+}
+
+p{
+    text-align: justify;
+}
+
+#logo-container span{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight:bold;
+}
+
+.articulo{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.card{
+    border-radius: 20px;
+}
+
+.card-personal{
+    position: relative;
+    border-radius: 10px;
+    box-shadow: rgba(58,78,95,0.2) 0 10px 16px, rgba(58,78,95,0.05) 0 -5px 16px;
+    padding: 20px;
+    margin: 0 auto; /*Centrarmos el contenedor*/
+    overflow: hidden;
+    width: 85%;
+}
+
+.card-blog{
+    min-width: 200px;
+    max-width: 700px;
+}
+
+.card-contacto{
+    padding: 20px;
+}
+
+.card-datos-contacto{
+    position: relative;
+    padding: 10px 10px 10px 90px;
+}
+
+.card-datos-contacto i{
+    line-height: 50px;
+    position: absolute;
+    left: 22px;
+    top: 35px;
+}
+
+.card .card-content p {
+    margin: 15px 0px;
+}
+
+.card-content i {
+   font-size: 1.5rem;
+}
+
+.nav-fijo{
+    background: #fff;
+}
+
+.nav-fijo a{
+    color: #424242;
+}
+
+#nav a:hover {
+    background: none;
+    color: #4fc3f7;
+}
+
+.sidenav .current a, #nav .nav-wrapper .current a {
+    background: #4fc3f7;
+    color:white;
+}
+
+#nav ul > .current > a {
+    border-radius: 50px;
+    position: relative;
+    top: 10px;
+    height: 40px;
+}
+
+.portada{
+    background: url('../img/code-background.jpg') center no-repeat fixed;
+    background-size: cover;
+    position: relative;
+    min-height: 660px;
+    max-height: 600px;
+}
+
+.portada:before {
+    content: "";
+    background: rgba(4, 8, 29, 0.7);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.text-portada, .text-skill{
+    color: #ffffff;
+    position: relative;
+}
+
+
+.text-portada{
+    min-height: 560px;
+}
+
+.imagen-perfil{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+/*****Diseños para los skills*****/
+.barra-skill{
+    background-color: #ddd;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.barra-skill-azul{
+    background-color: #4fc3f7;
+}
+
+.barra-skill, .barra-skill-azul{
+    border-radius: 50px;
+}
+
+/*.barra-skill, .php, .javascript, .wordpress, .html5, .css,
+.comunicativo, .proactivo, .comprometido, .creativo, .empatia, 
+.resolver-problemas{
+    border-radius: 50px;
+}*/
+/**Habilidades duras o tecnicas*/
+.html5{width: 80%;}
+.css{width: 60%;}
+.php{ width: 80%;}
+.javascript{ width: 60%;}
+.wordpress{width: 50%;}
+.laravel{width: 60%;}
+
+
+/**Habilidades blandas*/
+.comunicativo{ width: 85%;}
+.proactivo{width: 60%;}
+.comprometido{width: 90%;}
+.creativo{width: 70%;}
+.empatia{ width: 80%;}
+.resolver-problemas{ width: 75%;}
+/********Fin de los diseños de las habilidades******/
+#servicios{
+    background: url('../img/fondo-abstracto.jpg') center no-repeat;
+}
+
+#skill{
+    background: url('../img/work-731198_1280.jpg') center no-repeat fixed;
+    background-size: cover;
+    position: relative;
+}
+
+#skill:before{
+    content: "";
+    background: rgba(4, 8, 29, 0.7);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/*#sobre-mi{
+    margin-top: 60px;
+}*/
+
+#contacto{
+    background: rgb(230, 230, 230);
+}
+
+
+
+
